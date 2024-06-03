@@ -1,8 +1,10 @@
-    <?php
-        include 'header.php';
-    ?>
-        <h3>Contacto</h3>
-        <form  class="formulario" action="">
+<?php
+include 'header.php';
+?>    
+<h1>Contacto</h1>
+<main>
+    <section>
+        <form  class="formulario" action="create_contact.php" method="POST">
             <fieldset>
                 <legend>Contactame enviando tus datos</legend>
                 <div class="contenedor campos">
