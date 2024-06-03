@@ -1,8 +1,8 @@
 <?php
 //parametro de conexión
 $servername="localhost";
-$username="angel";
-$passwork="12345";
+$username="tu nombre";
+$passwork="la password";
 $dbname="formacion";
 
 //crear conexion
