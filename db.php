@@ -13,4 +13,3 @@ if($conn->connect_error){
     die("conexion fallida".$conn->connect_error);
 }
 echo "conexion exitosa";
-?>
