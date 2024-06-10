@@ -278,7 +278,12 @@ footer{
 
 .fila{
     display: grid;
-    grid-template-columns: 5fr 2fr 1fr 2fr 3fr;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    grid-template-columns: 5fr 2fr 1fr 2fr 3fr 1fr;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .campo{

@@ -25,6 +25,9 @@
         <div class="campoCabecera">
             mensaje
         </div>
+        <div class="campoCabecera">
+            acción
+        </div>
     </div>
 <?php
     $num=0;
@@ -42,6 +45,9 @@
                 <div class="campo"><?=$row['telefono']?></div>
                 <div class="campo"><?=$row['correo']?></div>
                 <div class="campo"><?=$row['mensaje']?></div>
+                <div class="btn-borrar">
+                    <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
+                </div>
         </div>
     <?php
     }
